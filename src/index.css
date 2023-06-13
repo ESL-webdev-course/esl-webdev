@@ -1,0 +1,106 @@
+body {
+    background-color: BLACK;
+    font-weight: 100;
+    font-family: Nunito;
+    overflow-x: hidden;
+    color: white;
+}
+hr {
+    border-top: 1px solid #0078d7;
+}
+.container-fluid h2 {
+    font-weight: 100;
+    color: #388fd6;
+}
+a {
+    color: #88b7dd;
+}
+.container-fluid p {
+    color: #f4fff8;
+    font-weight: 100;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 2;
+}
+/* Slideshow container */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f4fff8;
+}
+.tstart {
+    font-size: 4rem;
+    color: #0078d7;
+}
+.header {
+    text-align: center;
+    font-size: 3rem;
+}
+.iconsize {
+    width: 30%;
+    height: 30%;
+}
+#mainNav .navbar-brand {
+    color: #0078d7;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+#mainNav .nav-link:hover {
+    color: #0078d7;
+}
+#mainNav {
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #f4fff8;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#mainNav .nav-links {
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #f4fff8;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+h1 span {
+    color: #0078d7;
+}
+h1 {
+    font-weight: 100;
+}
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 780px) {
+    .img-fluid {
+        width: 100vh;
+    }
+}
+
+#syllabus,
+#court,
+#end,
+#about {
+    padding-top: 100px !important;
+}
+.navbar {
+    background-color: black;
+}
+.butt {
+    border: none;
+}
+#end {
+    margin-bottom: 50px;
+}
+#contact {
+    background-color: black;
+    padding: 50px;
+}
+.active {
+    color: #0078d7 !important;
+}
