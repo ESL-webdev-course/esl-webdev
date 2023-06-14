@@ -38,8 +38,8 @@ function App() {
                 <Navbar getContent={getContent} language={language} setLanguage={setLanguage} />
 
                 <Routes>
-                    <Route path="/syllabus" element={<Syllabus />} />
-                    <Route path="/resources" element={<Resources />} />
+                    <Route path="/syllabus" element={<Syllabus language={language} />} />
+                    <Route path="/resources" element={<Resources language={language} />} />
                     <Route path="/home" element={<Home language={language} getContent={getContent} />} />
                     <Route path="/" element={<Home language={language} getContent={getContent} />} />
                 </Routes>

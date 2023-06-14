@@ -18,8 +18,9 @@ const americanFlagStyle = {
     float: 'right',
 };
 function Navbar(props) {
+    console.log(props);
     function chooseFlagStyle(english) {
-        if (english) {
+        if (!english) {
             return americanFlagStyle;
         } else {
             return spanishFlagStyle;
@@ -39,7 +40,7 @@ function Navbar(props) {
             <button className="navbar-toggler butt" data-toggle="collapse" data-target="#navLinks">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <a href="#" className="navbar-brand">
+            <a href="/home" className="navbar-brand">
                 ESL Webdev Course
             </a>
 

@@ -1,5 +1,5 @@
 function Home(props) {
-    const text = props.language.content;
+    const text = props.language.content.home;
 
     return (
         <div className="App">
@@ -91,12 +91,12 @@ function Home(props) {
             <div className="container-fluid" id="contact">
                 <div className="row">
                     <div className="col-md-6">
-                        <h2>Contact Us</h2>
+                        <h2>{text.footer.contact.title}</h2>
                         <p>Email: mateoslopez2005@gmail.com</p>
-                        <p>Phone: +1 (832)-888-0327</p>
+                        <p>{text.footer.contact.phone}</p>
                     </div>
                     <div className="col-md-6">
-                        <h2>Follow Us</h2>
+                        <h2>{text.footer.follow}</h2>
                         <ul className="list-inline">
                             <li className="list-inline-item">
                                 <a>
