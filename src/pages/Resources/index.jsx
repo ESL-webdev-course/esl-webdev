@@ -1,10 +1,10 @@
 function Resources() {
     return (
-        <div class="container-fluid" id="home">
-            <div class="row align-items-center">
-                <div class="col-12 mt-5 p-5 col-sm-7 text-white text-left">
-                    <div class="container">
-                        <h2 class="header text-white text-left">Student Resources</h2>
+        <div className="container-fluid" id="home">
+            <div className="row align-items-center">
+                <div className="col-12 mt-5 p-5 col-sm-7 text-white text-left">
+                    <div className="container">
+                        <h2 className="header text-white text-left">Student Resources</h2>
 
                         <hr />
 
@@ -72,7 +72,7 @@ function Resources() {
                                 </li>
                             </ul>
                         </div>
-                        <div class="contain-fluid" id="stack-overflow">
+                        <div className="contain-fluid" id="stack-overflow">
                             <hr />
 
                             <h4>Stack Overflow</h4>
@@ -93,7 +93,7 @@ function Resources() {
                                 someone else has had the same issue and asked about it on stack)
                             </p>
                         </div>
-                        <div class="contain-fluid" id="mdn">
+                        <div className="contain-fluid" id="mdn">
                             <hr />
 
                             <h4>MDN Web Docs</h4>
@@ -112,7 +112,7 @@ function Resources() {
                                 looking to learn the language.
                             </p>
                         </div>
-                        <div class="contain-fluid" id="w3">
+                        <div className="contain-fluid" id="w3">
                             <hr />
 
                             <h4>W3Schools</h4>
@@ -135,7 +135,7 @@ function Resources() {
                                 so if you try their instructions and it doesn't work don't be too disappointed.
                             </p>
                         </div>
-                        <div class="contain-fluid" id="other">
+                        <div className="contain-fluid" id="other">
                             <hr />
 
                             <h4>Other Resources</h4>
@@ -189,14 +189,14 @@ function Resources() {
                     </div>
                 </div>
 
-                <div class="position-fixed d-none d-md-block" style={{ right: '0', top: '0' }}>
+                <div className="position-fixed d-none d-md-block" style={{ right: '0', top: '0' }}>
                     <img
                         style={{ width: '40vw', float: 'right' }}
-                        class="img-fluid d-none d-md-block"
+                        className="img-fluid d-none d-md-block"
                         src="images/houston-skyline-two.jpeg"
                         alt=""
                     />
-                    <img class="img-fluid d-md-none s" src="images/houston-skyline.jpeg" alt="" />
+                    <img className="img-fluid d-md-none s" src="images/houston-skyline.jpeg" alt="" />
                 </div>
             </div>
         </div>

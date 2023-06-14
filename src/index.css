@@ -41,22 +41,22 @@ a {
 }
 #mainNav .navbar-brand {
     color: #0078d7;
-    font-weight: 100;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
 }
 #mainNav .nav-link:hover {
     color: #0078d7;
 }
 #mainNav {
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #f4fff8;
     padding-top: 0;
     padding-bottom: 0;
 }
 #mainNav .nav-links {
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #f4fff8;
     padding-top: 0;
     padding-bottom: 0;
