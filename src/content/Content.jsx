@@ -44,6 +44,7 @@ export const text = {
                         key: 3,
                     },
                 ],
+                resume: 'Resume',
             },
             footer: { contact: { title: 'Contact Us', phone: 'Phone: +1 (832)-888-0327' }, follow: 'Follow Us' },
         },
@@ -227,17 +228,17 @@ export const text = {
     es: {
         navbar: {
             title: 'ESL Webdev Course',
-            home: 'HOME',
-            syllabus: 'SYLLABUS',
-            resources: 'RESOURCES',
-            about: 'ABOUT',
-            contact: 'CONTACT',
+            home: 'CASA',
+            syllabus: 'CURRICULO',
+            resources: 'RECURSOS',
+            about: 'SOBRE ME',
+            contact: 'CONTACTO',
         },
         home: {
             mission:
                 'Empoderando a individuos y comunidades de inglés como segundo idioma a través de la educación en desarrollo web.',
             syllabus: {
-                title: 'Resumen general del curriculum',
+                title: 'Resumen general del currículo',
                 p: [
                     {
                         text: 'Este curso cubre HTML, CSS y JavaScript, los lenguajes esenciales para el desarrollo web. Los participantes aprenderán cómo estructurar el contenido web, dar estilo a las páginas y agregar interactividad. A través de proyectos prácticos, adquirirán habilidades prácticas en la creación de sitios web bien diseñados, responsivos y dinámicos.',
@@ -249,28 +250,29 @@ export const text = {
                     },
                 ],
                 link: {
-                    description: 'Para el CURRICULUM COMPLETO de click en este ',
+                    description: 'Para el CURRICULO COMPLETO de click en este ',
                     linkText: 'enlace!',
                 },
             },
             about: {
-                title: 'Sobre Mi',
+                title: 'Sobre mi',
                 p: [
                     {
-                        text: 'My name is Mateo Sanchez, I am a rising high school senior. I have been deeply passionate about sharing my programming knowledge with an interested audience for years now.',
+                        text: 'Mi nombre es Mateo Sánchez, soy un estudiante de último año de secundaria. Siempre he querido compartir me passion por el desarrollo web, y por esto he decidido crear esta pagina.',
                         key: 1,
                     },
                     {
-                        text: 'I developed this course by compiling the information presented in the online resources that I found most useful throughout my programming journey as well as what I learned from my many mentors at my internships and jobs.',
+                        text: 'Desarrolle este curso recopilando la información presentada en el internet que consideré más util en mi trabajo programmando, y lo que aprendí de mis múltiples mentores en mis pasantías y empleos.',
                         key: 2,
                     },
                     {
-                        text: 'The resume linked below details my numerous experiences in both paid and unpaid software development that I draw my knowledge from. I would be happy to answer any further questions at the information listed in the contact section.',
+                        text: 'A continuación, encontrarás el enlace al CV que detalla mis numerosas experiencias en desarrollo de software de las cuales obtengo mis conocimientos. Estaré encantado de responder cualquier pregunta adicional si me contactais utilizando la información en la sección de contacto.',
                         key: 3,
                     },
                 ],
+                resume: 'CV',
             },
-            footer: { contact: { title: 'Contact Us', phone: 'Phone: +1 (832)-888-0327' }, follow: 'Follow Us' },
+            footer: { contact: { title: 'Contactame', phone: 'Telefono: +1 (832)-888-0327' }, follow: 'Sigueme' },
         },
         resources: {
             title: 'Student Resources',

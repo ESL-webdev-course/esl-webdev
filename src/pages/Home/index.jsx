@@ -82,7 +82,7 @@ function Home(props) {
                                 })}
 
                                 <a href="https://docs.google.com/document/d/18Zcwbbd_CEGsoroU--9Ymsak321vC6iJ/">
-                                    Resume
+                                    {text.about.resume}
                                 </a>
                             </div>
                         </div>
