@@ -18,7 +18,8 @@ const americanFlagStyle = {
     float: 'right',
 };
 function Navbar(props) {
-    console.log(props);
+    const text = props.language.content.navbar;
+
     function chooseFlagStyle(english) {
         if (!english) {
             return americanFlagStyle;
@@ -41,35 +42,35 @@ function Navbar(props) {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <a href="/home" className="navbar-brand">
-                ESL Webdev Course
+                {text.title}
             </a>
 
             <div className="collapse navbar-collapse" id="navLinks">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <HashLink to="/home" className="nav-link">
-                            HOME
+                            {text.home}
                         </HashLink>
                     </li>
                     <li className="nav-item">
                         <HashLink to="syllabus" className="nav-link">
-                            SYLLABUS
+                            {text.syllabus}
                         </HashLink>
                     </li>
 
                     <li className="nav-item">
                         <HashLink to="resources" className="nav-link">
-                            RESOURCES
+                            {text.resources}
                         </HashLink>
                     </li>
                     <li className="nav-item">
                         <HashLink to="/home#about" preventScrollReset={true} className="nav-link">
-                            ABOUT
+                            {text.about}
                         </HashLink>
                     </li>
                     <li className="nav-item">
                         <HashLink to="/home#contact" className="nav-link">
-                            CONTACT
+                            {text.contact}
                         </HashLink>
                     </li>
                 </ul>

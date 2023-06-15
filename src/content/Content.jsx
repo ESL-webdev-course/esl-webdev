@@ -1,5 +1,13 @@
 export const text = {
     en: {
+        navbar: {
+            title: 'ESL Webdev Course',
+            home: 'HOME',
+            syllabus: 'SYLLABUS',
+            resources: 'RESOURCES',
+            about: 'ABOUT',
+            contact: 'CONTACT',
+        },
         home: {
             mission:
                 'Empowering english as a second language individuals and communities through web development education.',
@@ -217,28 +225,36 @@ export const text = {
         },
     },
     es: {
+        navbar: {
+            title: 'ESL Webdev Course',
+            home: 'HOME',
+            syllabus: 'SYLLABUS',
+            resources: 'RESOURCES',
+            about: 'ABOUT',
+            contact: 'CONTACT',
+        },
         home: {
             mission:
-                'POPOPOOPEmpowering english as a second language individuals and communities through web development education.',
+                'Empoderando a individuos y comunidades de inglés como segundo idioma a través de la educación en desarrollo web.',
             syllabus: {
-                title: 'Syllabus Overview',
+                title: 'Resumen general del curriculum',
                 p: [
                     {
-                        text: 'This web development course covers HTML, CSS, and JavaScript, the essential languages for web development. Participants will learn how to structure web content, style pages, and add interactivity. Through hands-on projects, they will gain practical skills in creating well-designed, responsive, and dynamic websites.',
+                        text: 'Este curso cubre HTML, CSS y JavaScript, los lenguajes esenciales para el desarrollo web. Los participantes aprenderán cómo estructurar el contenido web, dar estilo a las páginas y agregar interactividad. A través de proyectos prácticos, adquirirán habilidades prácticas en la creación de sitios web bien diseñados, responsivos y dinámicos.',
                         key: 1,
                     },
                     {
-                        text: 'This course will also introduce different publishing and hosting techniques. By the end of the course, students will be equipped to bring their ideas to life on the web.',
+                        text: 'Este curso también presentará diferentes técnicas de publicación y alojamiento. Al final del curso, los estudiantes podran dar vida a sus ideas en la web.',
                         key: 2,
                     },
                 ],
                 link: {
-                    description: 'For the FULL COURSE SYLLABUS click this',
-                    linkText: 'link',
+                    description: 'Para el CURRICULUM COMPLETO de click en este ',
+                    linkText: 'enlace!',
                 },
             },
             about: {
-                title: 'About',
+                title: 'Sobre Mi',
                 p: [
                     {
                         text: 'My name is Mateo Sanchez, I am a rising high school senior. I have been deeply passionate about sharing my programming knowledge with an interested audience for years now.',
