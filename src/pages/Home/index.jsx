@@ -55,7 +55,8 @@ function Home(props) {
                                 })}
                                 <p className="text-left">
                                     <strong>
-                                        For the FULL COURSE SYLLABUS click this <a href="./syllabus.html">link</a>
+                                        {text.syllabus.link.description}{' '}
+                                        <a href="./syllabus.html">{text.syllabus.link.linkText}</a>
                                     </strong>
                                 </p>
                             </div>

@@ -1,7 +1,8 @@
 export const text = {
     en: {
         home: {
-            mission: 'Empowering individuals and communities through web development education.',
+            mission:
+                'Empowering english as a second language individuals and communities through web development education.',
             syllabus: {
                 title: 'Syllabus Overview',
                 p: [
@@ -14,6 +15,10 @@ export const text = {
                         key: 2,
                     },
                 ],
+                link: {
+                    description: 'For the FULL COURSE SYLLABUS click this',
+                    linkText: 'link',
+                },
             },
             about: {
                 title: 'About',
@@ -213,7 +218,8 @@ export const text = {
     },
     es: {
         home: {
-            mission: 'Pooopoooo mpowering individuals and communities through web development education.',
+            mission:
+                'POPOPOOPEmpowering english as a second language individuals and communities through web development education.',
             syllabus: {
                 title: 'Syllabus Overview',
                 p: [
@@ -226,6 +232,10 @@ export const text = {
                         key: 2,
                     },
                 ],
+                link: {
+                    description: 'For the FULL COURSE SYLLABUS click this',
+                    linkText: 'link',
+                },
             },
             about: {
                 title: 'About',

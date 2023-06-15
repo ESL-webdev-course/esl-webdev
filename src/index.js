@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import Resources from './pages/Resources';
 import ErrorPage from './pages/Error';
 import Syllabus from './pages/Syllabus';
-import { text } from './content/Content';
+import { text } from './content/Content.jsx';
 import Navbar from './components/Navbar';
 
 function App() {

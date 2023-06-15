@@ -49,7 +49,9 @@ function Resources(props) {
 
                                     <p>
                                         {section.subHeader.description}
-                                        <a href={section.subHeader.link}> {section.subHeader.linkText}</a>
+                                        <a target="_blank" href={section.subHeader.link}>
+                                            {' ' + section.subHeader.linkText}
+                                        </a>
                                     </p>
                                     {section.p.map((text) => {
                                         return (
@@ -67,16 +69,24 @@ function Resources(props) {
                             <h4>{text.other.title}</h4>
                             <ul>
                                 <li>
-                                    <a href="https://www.youtube.com/"> Youtube </a>
+                                    <a href="https://www.youtube.com/" target="_blank">
+                                        Youtube
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a>
+                                    <a href="https://www.freecodecamp.org/" target="_blank">
+                                        freeCodeCamp.org
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.coursera.org/"> Coursera </a>
+                                    <a href="https://www.coursera.org/" target="_blank">
+                                        Coursera
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.udemy.com/"> Udemy </a>
+                                    <a href="https://www.udemy.com/" target="_blank">
+                                        Udemy
+                                    </a>
                                 </li>
                             </ul>
                             {text.other.p.map((text) => {
@@ -86,6 +96,9 @@ function Resources(props) {
                                     </p>
                                 );
                             })}
+                            <a target="_blank" href="https://www.udemy.com/course/the-web-developer-bootcamp/">
+                                {text.other.udemyCourseLinkText}
+                            </a>
                         </div>
                     </div>
                 </div>
