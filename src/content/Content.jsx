@@ -227,7 +227,7 @@ export const text = {
     },
     es: {
         navbar: {
-            title: 'ESL Webdev Course',
+            title: 'Curso de ESL Webdev',
             home: 'CASA',
             syllabus: 'CURRICULO',
             resources: 'RECURSOS',

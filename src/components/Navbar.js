@@ -4,16 +4,16 @@ import { HashLink } from 'react-router-hash-link';
 const spanishFlagStyle = {
     backgroundImage: "url('https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg')",
     backgroundSize: 'cover',
-    width: '30px',
-    height: '20px',
+    width: '45px',
+    height: '30px',
     border: 'none',
     float: 'right',
 };
 const americanFlagStyle = {
     backgroundImage: "url('https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg')",
     backgroundSize: 'cover',
-    width: '30px',
-    height: '20px',
+    width: '45px',
+    height: '30px',
     border: 'none',
     float: 'right',
 };
@@ -41,9 +41,9 @@ function Navbar(props) {
             <button className="navbar-toggler butt" data-toggle="collapse" data-target="#navLinks">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <a href="/home" className="navbar-brand">
+            <HashLink to="/home" className="navbar-brand">
                 {text.title}
-            </a>
+            </HashLink>
 
             <div className="collapse navbar-collapse" id="navLinks">
                 <ul className="navbar-nav">
