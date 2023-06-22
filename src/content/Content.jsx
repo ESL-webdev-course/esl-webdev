@@ -80,7 +80,7 @@ export const text = {
                         strong: false,
                     },
                     {
-                        text: 'The most important this for searching for how to fix an error in your code is to understand the error (and your code) well enough to know the correct key words to enter in the search.',
+                        text: 'The most important thig for searching for how to fix an error in your code is to understand the error (and your code) well enough to know the correct key words to enter in the search.',
                         key: 7,
                         strong: false,
                     },
@@ -203,7 +203,7 @@ export const text = {
                         key: 1,
                     },
                     {
-                        text: 'The course begins with HTML, the backbone of web development, teaching students how to structure content, create semantic markup, and incorporate multimedia elements. Through hands-on exercises and projects, learners will develop proficiency in crafting well-organized and accessible web pages.',
+                        text: 'The course begins with HTML, the backbone of web development. This section will teach students how to structure content, create semantic markup, and incorporate multimedia elements. Through hands-on exercises and projects, learners will develop proficiency in crafting well-organized and accessible web pages.',
                         key: 2,
                     },
                     {
@@ -275,43 +275,46 @@ export const text = {
             footer: { contact: { title: 'Contactame', phone: 'Telefono: +1 (832)-888-0327' }, follow: 'Sigueme' },
         },
         resources: {
-            title: 'Student Resources',
+            title: 'Recursos',
             overview: {
-                title: 'Overview',
+                title: 'Resumen',
                 p: [
                     {
-                        text: 'Online resources play a crucial role in the world of web development, serving as invaluable assets to developers at all skill levels. They offer a vast repository of knowledge, tutorials, documentation, and code samples that can be accessed anytime, anywhere. They offer solutions to common coding challenges, facilitate troubleshooting, and provide guidance on implementation.',
+                        text: 'Esta pagina contiene los recursos digitales que yo considero mas utiles e importantantes.',
+                    },
+                    {
+                        text: 'Los recursos digitales tienen un papel central en el mundo del desarrollo web. Las páginas web y los tutoriales digitales son herramientas esenciales para programadores de todos los niveles. En el internet uno se puede encontrar todo tipo de información útil. Con tutoriales, documentación y ejemplos de código, los recursos digitales ofrece soluciones a cualquier tipo de problema con el que un programador pudiera encontrarse.',
                         key: 1,
                         strong: false,
                     },
                     {
-                        text: 'Online communities and forums also foster collaboration and enable developers to connect with peers, seek advice, and share their expertise. Overall, online resources empower web developers to enhance their skills, stay current, overcome obstacles, and continually expand their horizons.',
+                        text: 'Ademas de recursos formales como estos foros y communidades digitales son una gran ayuda para cualquier programmador. Estos foros son grandes bases de datos que contienen millones de problemas accompanados con sus soluciones que como programadores podemos aprobechar. Estos foros tambien son un gran sitio para pedir ayuda.',
                         key: 2,
                         strong: false,
                     },
                     {
-                        text: 'Knowing which resources are reliable and easily digestible is the most important skill a software developer can have. No one can or really needs to store all the nuanced semantics of programming in their heads and this is thanks to online resources.',
+                        text: 'Aprender qué recursos son confiables y fáciles de comprender y como buscarlos es la habilidad más importante que un desarrollador de software puede tener. Nadie puede o realmente necesita almacenar todos los matices semánticos de la programación en su mente, y esto es gracias a los recursos digitales.',
                         key: 3,
                         strong: false,
                     },
                     {
-                        text: 'On this page I will highlight my personal go-to resources. Feel free to explore and come to these for help with upcoming projects',
+                        text: 'En esta página documentare los recursos a los que suelo recurrir. Siéntase libre de explorar y acudir a ellos en busca de ayuda con futuros proyectos.',
                         key: 4,
                         strong: false,
                     },
-                    { text: 'Important Note:', key: 5, strong: true },
+                    { text: 'Nota Importante:', key: 5, strong: true },
                     {
-                        text: 'It is super important to remember that being able to use these resources hinges entirely on your ability to ask google or the stack overflow search what you are looking for. Googling is a skill that you majorly have to develop to be a successful programmer.',
+                        text: 'Es muy importante recordar que poder utilizar estos recursos depende por completo de tu habilidad para buscar en Google o en Stack Overflow lo que estás buscando. Saber buscar en Internet es una habilidad que debes desarrollar mucho para ser un programador exitoso.',
                         key: 6,
                         strong: false,
                     },
                     {
-                        text: 'The most important this for searching for how to fix an error in your code is to understand the error (and your code) well enough to know the correct key words to enter in the search.',
+                        text: 'Lo más importante al buscar cómo solucionar un error en tu código es entender el error (y tu código) lo suficientemente bien como para conocer las palabras clave correctas que debes ingresar en la búsqueda de google.',
                         key: 7,
                         strong: false,
                     },
                     {
-                        text: 'Lastly, pro tip is when stuck with debugging javascript, just copy pasting error codes into google will usually yield decent result.',
+                        text: 'Lo último es que cuando te encuentres atascado depurando JavaScript, simplemente copiar y pegar los códigos de error en Google generalmente dará resultados decentes.',
                         key: 8,
                         strong: false,
                     },
@@ -331,18 +334,22 @@ export const text = {
                     key: 1,
                     title: 'Stack Overflow',
                     subHeader: {
-                        description: 'Website Link:',
-                        link: 'https://stackoverflow.com/',
-                        linkText: 'stackoverflow.com',
+                        description: 'Enlace:',
+                        link: 'https://es.stackoverflow.com/',
+                        linkText: 'es.stackoverflow.com',
                     },
                     p: [
                         {
-                            text: 'Stack Overflow is an essential platform for developers. It offers a vast repository of questions and answers contributed by the community, providing valuable insights, solutions, and explanations. The collaborative nature of the platform encourages knowledge sharing and community engagement.',
+                            text: 'Stack Overflow es una plataforma fundamental para los desarrolladores. Proporciona un amplio repositorio de preguntas y respuestas contribuidas por la comunidad, ofreciendo información valiosa, soluciones y explicaciones. La naturaleza colaborativa de la plataforma promueve el intercambio de conocimientos y la participación de la comunidad.',
                             key: 1,
                         },
                         {
-                            text: 'I frequently visit stack overflow and look at previously asked questions for debugging and it is probably one of the best resources on the web. For example, in the process of programming this webpage I have visited stack overflow for troubleshooting and code samples multiple times. (If you have an error in your code I can almost guarantee someone else has had the same issue and asked about it on stack)',
+                            text: 'Yo visito con frecuencia a Stack Overflow y reviso preguntas viejas para depurar. Esta pagina probablemente es uno de los mejores recursos en la web. Por ejemplo, durante el proceso de programación de esta página web, he visitado Stack Overflow varias veces para solucionar problemas y obtener ejemplos de código. (Si tienes un error en tu código, casi puedo garantizar que alguien más ha tenido el mismo problema y ha consultado la communidad de Stack).',
                             key: 2,
+                        },
+                        {
+                            text: 'El enlace de arriba es para la versión en español de Stack Overflow, pero si no encuentras la respuesta en esta versión, también recomendaría intentar una búsqueda en la versión en inglés, que es un poco más extensa.',
+                            key: 3,
                         },
                     ],
                 },
