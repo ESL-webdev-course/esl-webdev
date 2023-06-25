@@ -357,18 +357,22 @@ export const text = {
                     key: 2,
                     title: 'MDN Web Docs',
                     subHeader: {
-                        description: 'Website Link:',
-                        link: 'https://developer.mozilla.org/en-US/',
-                        linkText: 'developer.mozilla.org',
+                        description: 'Enlace:',
+                        link: 'https://developer.mozilla.org/es/docs/Web',
+                        linkText: 'developer.mozilla.org/es/docs/Web',
                     },
                     p: [
                         {
-                            text: 'MDN (Mozilla Developer Network) is an very powerful resource for developers, providing a wide range of use cases. Developers frequently rely on MDN as a reference for syntax, usage examples, and browser compatibility details.',
+                            text: 'MDN (Mozilla Developer Network) es una pagina creada por programmadores que ofrece recursos y documentación exhaustiva sobre tecnologías web. Los desarrolladores suelen depender frecuentemente de MDN como referencia para la sintaxis, ejemplos de uso y detalles de compatibilidad con navegadores.',
                             key: 1,
                         },
                         {
-                            text: 'I will frequently go to MDN for instructions on how to use certain tags or write certain pieces of code pretty frequently. But to be honest it best suited for new developers looking to learn the language.',
+                            text: 'Frecuentemente consulto MDN para obtener instrucciones sobre cómo utilizar ciertas etiquetas o escribir piezas de código, ya que es uno de los recursos digitales más fiables. Sin embargo, siendo honesto, está más orientado a desarrolladores principiantes, y ya que uno comienza a programar cosas más elaboradas, la página deja de ser tan útil.',
                             key: 2,
+                        },
+                        {
+                            text: 'Otra cosa muy buena de MDN es que sus páginas de contenido, instrucciones y tutoriales son todas traducidas por un grupo de desarrolladores en lugar de usar simplemente el traductor de Google. Y aunque estas traducciones no siempre sean perfectas, son suficientemente buenas.',
+                            key: 3,
                         },
                     ],
                 },
@@ -382,45 +386,45 @@ export const text = {
                     },
                     p: [
                         {
-                            text: 'W3Schools caters to developers of all levels by offering comprehensive tutorials, a vast code snippet library, interactive coding exercises, and a collaborative community. It serves as an invaluable resource for learning, practicing, and sharing knowledge, empowering developers to grow and excel in their web development journey.',
+                            text: 'W3Schools se adapta a desarrolladores de todos los niveles al ofrecer tutoriales completos, una amplia biblioteca de fragmentos de código, y ejercicios interactivos de codificación. Sirve como un recurso invaluable para aprender, practicar y compartir conocimientos, empoderando a los desarrolladores para crecer y destacar en su camino de desarrollo web.',
                             key: 1,
                         },
                         {
-                            text: "I personally find the W3 is super helpful when learning new code. It is definitely catering towards newer developers and it is simple and helpful and has some code IDE's that let you experiment with the stuff your are learning.",
+                            text: 'Personalmente, pienso que W3 es de gran ayuda cuando hay que aprender cosas nuevas. Definitivamente está orientado hacia desarrolladores principiantes y es simple y útil, además cuenta con algunos IDE de código con los que puedes experimentar con lo que estás aprendiendo.',
                             key: 2,
                         },
                         {
-                            text: "I would just be a bit wary because occasionally W3 is just incorrect about some things so if you try their instructions and it doesn't work don't be too disappointed.",
+                            text: 'Solo debes tener un poco de precaución, ya que ocasionalmente W3 puede estar equivocado en algunos aspectos, por lo que si sigues sus instrucciones y no funcionan, no te decepciones demasiado.',
+                            key: 3,
+                        },
+                        {
+                            text: 'Lo unico es que W3 es una de esas paginas que estan traducidas con el traductor de google entonces yo usaria esta pagina como ultimo recurso si not entiendes mas o menos bien el ingles.',
                             key: 3,
                         },
                     ],
                 },
             ],
             other: {
-                title: 'Other',
+                title: 'Recursos alternativos',
                 p: [
                     {
-                        text: 'All these are fantastic resources, all free other than Udemy.',
+                        text: 'Todos estos son recursos alternativos son fantásticos, todos gratuitos excepto Udemy.',
                         key: 1,
                     },
                     {
-                        text: 'Free Code Camp and Coursera are both great leaning resources, I did not include them above because they are not so much a tool for development as a full courses for in depth learning. Just searching within them and looking for courses that you like is a great way to start.',
+                        text: 'Free Code Camp y Coursera son ambos excelentes recursos de aprendizaje. No los incluí anteriormente porque no son tanto una herramienta para el desarrollo como cursos completos para un aprendizaje en profundidad. Estas paginas son una excelente manera de empezar programando. Si tienes tiempo registrate con uno de ellos y encuentra algun curso que te guste y intentalo, no pierdes nada.',
                         key: 2,
                     },
                     {
-                        text: 'I have personally heard great things about just the basic IBM Full Stack Software Developer Course at coursera. This one will go well beyond what we cover in this course and allow for the integration of a back end with the front end we will learn to program here.',
-                        key: 3,
-                    },
-                    {
-                        text: 'The freeCodeCamp ones are also very good and they have numerous courses in various programming languages. Just create an account if you are interested in their content and chose something you find interesting.',
+                        text: 'Los cursos de freeCodeCamp en especial son muy buenos, y ofrecen cursos en varios lenguajes de programación. Simplemente crea una cuenta si estás interesado en su contenido y elige algo que te parezca interesante. Y todo su contenido esta traducido al espanol bastante bien.',
                         key: 4,
                     },
                     {
-                        text: 'Lastly, there are so many free courses it is hard to justify the inclusion of a paid one but nonetheless, this is the course that I took and it was fantastic. I took it into various professional environments and it worked fantastically. I will link it below for those who are interested.',
+                        text: 'Hay tantos cursos gratuitos disponibles que resulta difícil justificar la inclusión de uno de pago. Sin embargo, quería compartir el curso que tomé, el cual fue fantástico. Lo apliqué en diferentes entornos profesionales y funcionó de manera excepcional. Inluire el enlace abajo.',
                         key: 5,
                     },
                     {
-                        text: 'PS: if you are going to buy it, wait for it to go on sale. It happens pretty often and it gets cut from that $200 price to something more affordable like right now it is at $34.',
+                        text: 'PD: Si vas a comprarlo, espera a que esté en oferta. Ocurre con bastante frecuencia y el precio se reduce de los $200 a algo más asequible, como ahora que está a $34.',
                         key: 6,
                     },
                 ],
