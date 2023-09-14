@@ -218,9 +218,31 @@ export const text = {
             },
             classes: [
                 {
-                    title: 'Class 1',
-                    key: 1,
+                    title: 'Lesson #1',
+                    url: 'lesson1',
+                    description: 'Introduction to course',
+                    estimate: '30mins',
+                    selfGuided: false,
+                    extended:
+                        'This first lesson will introduce the central method of the course and will go over the way to consume it in order for it to yeild maximum benefit. Additionally there will be a brief review of the student resources.',
                     text: 'In Prog.',
+                    video: '',
+                    key: 1,
+                },
+                {
+                    title: 'Lesson #2',
+                    url: 'lesson2',
+                    description: 'Setting up for web development',
+                    estimate: '30-45 mins',
+                    selfGuided: true,
+                    selfText:
+                        'This unit can be self guided. For those who prefer the video version see link below. Otherwise the slides with instructions are embeded on this page.',
+                    slidesLink: 'https://slides.com/mats2/leccion-1-es-introduccion-al-curso/embed',
+                    extended:
+                        'This second lesson will go over the reccomended set up for the course. Basically the applications and programms I belive will serve students of this course best. And how to set them up for the course.',
+                    text: 'In Prog.',
+                    video: '',
+                    key: 2,
                 },
             ],
         },

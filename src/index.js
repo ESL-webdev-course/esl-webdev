@@ -9,6 +9,7 @@ import ErrorPage from './pages/Error';
 import Syllabus from './pages/Syllabus';
 import { text } from './content/Content.jsx';
 import Navbar from './components/Navbar';
+import Class from './components/Class';
 
 function App() {
     let lang = {};
@@ -31,13 +32,16 @@ function App() {
     };
 
     const [language, setLanguage] = useState({ english: initLanguage(), content: getContent(initLanguage()) });
-
+    let test = [];
     return (
         <React.StrictMode>
             <BrowserRouter>
                 <Navbar getContent={getContent} language={language} setLanguage={setLanguage} />
 
                 <Routes>
+                    {text.en.syllabus.classes.map((r) => {
+                        return <Route path={'/' + r.url} element={<Class class={r} />} />;
+                    })}
                     <Route path="/syllabus" element={<Syllabus language={language} />} />
                     <Route path="/resources" element={<Resources language={language} />} />
                     <Route path="/home" element={<Home language={language} getContent={getContent} />} />

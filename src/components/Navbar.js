@@ -47,11 +47,11 @@ function Navbar(props) {
 
             <div className="collapse navbar-collapse" id="navLinks">
                 <ul className="navbar-nav">
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <HashLink to="/home" className="nav-link">
                             {text.home}
                         </HashLink>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <HashLink to="syllabus" className="nav-link">
                             {text.syllabus}

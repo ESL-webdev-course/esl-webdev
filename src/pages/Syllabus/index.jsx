@@ -1,4 +1,8 @@
+import { HashLink } from 'react-router-hash-link';
+
 export default function Syllabus(props) {
+    if (window?.location.pathname === '/syllabus') require('./cindex.css');
+
     const text = props.language.content.syllabus;
     return (
         <div className="container-fluid" id="home">
@@ -16,12 +20,28 @@ export default function Syllabus(props) {
                                 );
                             })}
                         </div>
+                        <div id="index">
+                            <h2>Index</h2>
+                            <ol>
+                                {text.classes.map((section) => {
+                                    return (
+                                        <li>
+                                            <HashLink to={'/syllabus#class' + section.key}>
+                                                {section.title + ' -- ' + section.description}
+                                            </HashLink>
+                                        </li>
+                                    );
+                                })}
+                            </ol>
+                        </div>
                         <div id="classes">
                             {text.classes.map((section) => {
                                 return (
-                                    <div className="class" id="1">
-                                        <h3>{section.title}</h3>
-                                        <p>{section.text}</p>
+                                    <div className="class" id={section.url}>
+                                        <h3>{section.title + ' -- ' + section.description}</h3>
+                                        <p>Time Estimate: {section.estimate}</p>
+                                        <a href={'/' + section.url}>Full Lesson</a>
+                                        <p>{section.extended}</p>
                                     </div>
                                 );
                             })}

@@ -5,6 +5,13 @@ body {
     overflow-x: hidden;
     color: white;
 }
+#mainNav {
+    display: flex;
+}
+
+#back {
+    color: #f4fff8;
+}
 hr {
     border-top: 1px solid #0078d7;
 }
