@@ -40,7 +40,10 @@ function App() {
 
                 <Routes>
                     {text.en.syllabus.classes.map((r) => {
-                        return <Route path={'/' + r.url} element={<Class class={r} />} />;
+                        return <Route path={'/' + r.url} element={<Class class={r} text={text.en.syllabus} />} />;
+                    })}
+                    {text.es.syllabus.classes.map((r) => {
+                        return <Route path={'/' + r.url} element={<Class class={r} text={text.es.syllabus} />} />;
                     })}
                     <Route path="/syllabus" element={<Syllabus language={language} />} />
                     <Route path="/resources" element={<Resources language={language} />} />

@@ -6,29 +6,59 @@ function SelfGuided(props) {
     return (
         <div>
             <p>{props.text}</p>
-            <a href={props.video}>{props.video}</a>
-            <iframe
-                src={props.link}
-                width="576"
-                height="420"
-                title="#1.5 Lesson ES: Setting up to program"
-                scrolling="no"
-                frameborder="0"
-                webkitallowfullscreen
-                mozallowfullscreen
-                allowfullscreen
-            ></iframe>
+            <a target="_blank" style={{ display: 'block' }} href={props.video}>
+                {props.other.instruction.videoLink}
+            </a>
+            <br />
+            <div>
+                <iframe
+                    src={props.link}
+                    width="576"
+                    height="420"
+                    title={props.description}
+                    scrolling="no"
+                    frameborder="2"
+                    webkitAllowfullScreen
+                    mozAllowFullscreen
+                    allowFullScreen
+                ></iframe>
+            </div>
+
+            <a target="_blank" style={{ display: 'block' }} href={props.link}>
+                {props.other.instruction.slidesLink}
+            </a>
         </div>
     );
 }
 function NotSelfGuided(props) {
     return (
         <div>
-            <p>Wideo Embedded HEre</p>
+            <p>{props.other.instruction.video}</p>
+
+            <iframe
+                src={props.video}
+                width="576"
+                height="420"
+                title={props.description}
+                scrolling="no"
+                frameborder="0"
+                webkitAllowfullScreen
+                mozAllowFullscreen
+                allowFullScreen
+            ></iframe>
+            <a target="_blank" style={{ display: 'block' }} href={props.link}>
+                {props.other.instruction.slidesLink}
+            </a>
+            <br />
+            <p>{props.other.instruction.video2}</p>
+            <a target="_blank" style={{ display: 'block' }} href={props.video}>
+                {props.video}
+            </a>
         </div>
     );
 }
 export default function Class(props) {
+    console.log(props.text);
     const section = props.class;
     if (window?.location.pathname === '/' + section.url) require('./pindex.css');
     return (
@@ -39,10 +69,20 @@ export default function Class(props) {
             <div className="mt-5">
                 <h2>{section.title + ' -- ' + section.description}</h2>
                 {section.selfGuided && (
-                    <SelfGuided link={section.slidesLink} video={section.video} text={section.selfText} />
+                    <SelfGuided
+                        link={section.slidesLink}
+                        video={section.video}
+                        text={section.selfText}
+                        other={props.text}
+                    />
                 )}
                 {!section.selfGuided && (
-                    <NotSelfGuided link={section.slidesLink} video={section.video} text={section.selfText} />
+                    <NotSelfGuided
+                        link={section.slidesLink}
+                        video={section.video}
+                        other={props.text}
+                        text={section.selfText}
+                    />
                 )}
             </div>
         </div>

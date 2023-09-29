@@ -21,7 +21,7 @@ export default function Syllabus(props) {
                             })}
                         </div>
                         <div id="index">
-                            <h2>Index</h2>
+                            <h2>{text.indext}</h2>
                             <ol>
                                 {text.classes.map((section) => {
                                     return (
@@ -39,8 +39,8 @@ export default function Syllabus(props) {
                                 return (
                                     <div className="class" id={section.url}>
                                         <h3>{section.title + ' -- ' + section.description}</h3>
-                                        <p>Time Estimate: {section.estimate}</p>
-                                        <a href={'/' + section.url}>Full Lesson</a>
+                                        <p>{section.estimate}</p>
+                                        <a href={'/' + section.url}>{text.full}</a>
                                         <p>{section.extended}</p>
                                     </div>
                                 );

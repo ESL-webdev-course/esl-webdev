@@ -195,6 +195,9 @@ export const text = {
         },
         syllabus: {
             title: 'Course Syllabus',
+            full: 'Full Lesson',
+            link: 'Video Link',
+            indext: 'Index',
             overview: {
                 title: 'Overview',
                 p: [
@@ -216,6 +219,12 @@ export const text = {
                     },
                 ],
             },
+            instruction: {
+                video: 'View the video here and follow the instructions regarding activities and exercises.',
+                slidesLink: 'Link to presentation',
+                videoLink: 'Link to video',
+                video2: 'To view the video on youtube click the link below.',
+            },
             classes: [
                 {
                     title: 'Lesson #1',
@@ -225,24 +234,42 @@ export const text = {
                     selfGuided: false,
                     extended:
                         'This first lesson will introduce the central method of the course and will go over the way to consume it in order for it to yeild maximum benefit. Additionally there will be a brief review of the student resources.',
+
                     text: 'In Prog.',
-                    video: '',
+                    video: 'PLACEHOLDER',
                     key: 1,
                 },
                 {
-                    title: 'Lesson #2',
-                    url: 'lesson2',
+                    title: 'Lesson #1.5',
+                    url: 'lesson1-5',
                     description: 'Setting up for web development',
                     estimate: '30-45 mins',
                     selfGuided: true,
+                    instructions: 'View the video here and follow the instructions regarding activities and exercises.',
+
                     selfText:
                         'This unit can be self guided. For those who prefer the video version see link below. Otherwise the slides with instructions are embeded on this page.',
                     slidesLink: 'https://slides.com/mats2/leccion-1-es-introduccion-al-curso/embed',
                     extended:
                         'This second lesson will go over the reccomended set up for the course. Basically the applications and programms I belive will serve students of this course best. And how to set them up for the course.',
                     text: 'In Prog.',
-                    video: '',
+                    video: 'PLACEHOLDER',
                     key: 2,
+                },
+                {
+                    title: 'Lesson #2',
+                    url: 'lesson2',
+                    description: 'Introduction to HTML',
+                    estimate: '30-45 mins',
+                    selfGuided: false,
+                    instructions: 'View the video here and follow the instructions regarding activities and exercises.',
+
+                    slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                    extended:
+                        'This third lesson will go over the essentials of HTML. History, basic document structure, tags and important resources',
+                    text: 'In Prog.',
+                    video: 'PLACEHOLDER',
+                    key: 3,
                 },
             ],
         },
@@ -454,6 +481,15 @@ export const text = {
         },
         syllabus: {
             title: 'Course Syllabus',
+            full: 'Leccion Completa',
+            link: 'Enlace',
+            indext: 'Indice',
+            instruction: {
+                video: 'Vea el video aquí y siga las instrucciones relacionadas con las actividades y ejercicios.',
+                slidesLink: 'Enlace a la presentancion',
+                videoLink: 'Enlace al video',
+                video2: 'Para ver el video en youtube visite este enlace:',
+            },
             overview: {
                 title: 'Overview',
                 p: [
@@ -477,9 +513,47 @@ export const text = {
             },
             classes: [
                 {
-                    title: 'Class 1',
-                    key: 1,
+                    title: 'Leccion #1',
+                    url: 'leccion1',
+                    description: 'Introduccion al curso',
+                    estimate: '30mins',
+                    selfGuided: false,
+                    slidesLink: 'https://slides.com/mats2/lesson-1-en-introduction-to-course/embed',
+                    extended:
+                        'Esta primera lección introducirá el método central del curso y explicará la forma de consumirlo para obtener el máximo beneficio. Además, habrá una breve revisión de los recursos disponibles para los estudiantes.',
                     text: 'In Prog.',
+                    video: 'PLACEHOLDER',
+                    key: 1,
+                },
+                {
+                    title: 'Leccion #1.5',
+                    url: 'leccion1-5',
+                    description: 'Perparando para programmar',
+                    estimate: '30-45 mins',
+                    selfGuided: true,
+                    selfText:
+                        'Esta unidad puede ser autoguiada. Para aquellos que prefieran la versión en video, vean el enlace a continuación. Si no, la presentacion con instrucciones esta en esta página.',
+                    slidesLink: 'https://slides.com/mats2/1-5-lesson-en-setting-up-to-program/embed',
+                    extended:
+                        'Esta segunda lección abordará la configuración recomendada para el curso. Básicamente, las aplicaciones y programas que creo que serán más útiles para los estudiantes de este curso y cómo configurarlos para el curso.',
+                    text: 'In Prog.',
+                    video: 'PLACEHOLDER',
+                    key: 2,
+                },
+                {
+                    title: 'Leccion #2',
+                    url: 'leccion2',
+                    description: 'Introducion a HTML',
+                    instructions:
+                        'Vea el video aquí y siga las instrucciones relacionadas con las actividades y ejercicios.',
+                    estimate: '30-45 mins',
+                    selfGuided: false,
+                    slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                    extended:
+                        'Esta tercera lección abordará los conceptos esenciales de HTML. Historia, estructura básica de documentos, etiquetas y recursos importantes.',
+                    text: 'In Prog.',
+                    video: 'PLACEHOLDER',
+                    key: 2,
                 },
             ],
         },
