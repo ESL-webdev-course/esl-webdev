@@ -51,6 +51,7 @@ export default function Syllabus(props) {
 
                 <div className="position-fixed d-none d-md-block" style={{ right: '0', top: '0' }}>
                     <img
+                        alt="skyline"
                         style={{ width: '40vw' }}
                         className="img-fluid d-none d-md-block"
                         src="images/skyline-3.jpeg"
