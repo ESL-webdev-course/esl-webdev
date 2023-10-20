@@ -49,7 +49,7 @@ function Resources(props) {
 
                                     <p>
                                         {section.subHeader.description}
-                                        <a target="_blank" href={section.subHeader.link}>
+                                        <a target="_blank" rel="noreferrer" href={section.subHeader.link}>
                                             {' ' + section.subHeader.linkText}
                                         </a>
                                     </p>
@@ -69,22 +69,22 @@ function Resources(props) {
                             <h4>{text.other.title}</h4>
                             <ul>
                                 <li>
-                                    <a href="https://www.youtube.com/" target="_blank">
+                                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
                                         Youtube
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.freecodecamp.org/" target="_blank">
+                                    <a href="https://www.freecodecamp.org/" target="_blank" rel="noreferrer">
                                         freeCodeCamp.org
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.coursera.org/" target="_blank">
+                                    <a href="https://www.coursera.org/" target="_blank" rel="noreferrer">
                                         Coursera
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.udemy.com/" target="_blank">
+                                    <a href="https://www.udemy.com/" target="_blank" rel="noreferrer">
                                         Udemy
                                     </a>
                                 </li>
@@ -96,7 +96,11 @@ function Resources(props) {
                                     </p>
                                 );
                             })}
-                            <a target="_blank" href="https://www.udemy.com/course/the-web-developer-bootcamp/">
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://www.udemy.com/course/the-web-developer-bootcamp/"
+                            >
                                 {text.other.udemyCourseLinkText}
                             </a>
                         </div>

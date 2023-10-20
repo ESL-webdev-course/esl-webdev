@@ -6,7 +6,7 @@ function SelfGuided(props) {
     return (
         <div>
             <p>{props.text}</p>
-            <a target="_blank" style={{ display: 'block' }} href={props.video}>
+            <a target="_blank" rel="noreferrer" style={{ display: 'block' }} href={props.video}>
                 {props.other.instruction.videoLink}
             </a>
             <br />
@@ -24,7 +24,7 @@ function SelfGuided(props) {
                 ></iframe>
             </div>
 
-            <a target="_blank" style={{ display: 'block' }} href={props.link}>
+            <a target="_blank" rel="noreferrer" style={{ display: 'block' }} href={props.link}>
                 {props.other.instruction.slidesLink}
             </a>
         </div>
@@ -46,12 +46,12 @@ function NotSelfGuided(props) {
                 mozAllowFullscreen
                 allowFullScreen
             ></iframe>
-            <a target="_blank" style={{ display: 'block' }} href={props.link}>
+            <a target="_blank" rel="noreferrer" style={{ display: 'block' }} href={props.link}>
                 {props.other.instruction.slidesLink}
             </a>
             <br />
             <p>{props.other.instruction.video2}</p>
-            <a target="_blank" style={{ display: 'block' }} href={props.video}>
+            <a target="_blank" rel="noreferrer" style={{ display: 'block' }} href={props.video}>
                 {props.video}
             </a>
         </div>

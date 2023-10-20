@@ -1,18 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
-import ErrorPage from './pages/Error';
+// import ErrorPage from './pages/Error';
 import Syllabus from './pages/Syllabus';
 import { text } from './content/Content.jsx';
 import Navbar from './components/Navbar';
 import Class from './components/Class';
 
 function App() {
-    let lang = {};
     const initLanguage = () => {
         if (localStorage.getItem('english') === null) {
             localStorage.setItem('english', JSON.stringify({ english: true }));
@@ -32,7 +31,6 @@ function App() {
     };
 
     const [language, setLanguage] = useState({ english: initLanguage(), content: getContent(initLanguage()) });
-    let test = [];
     return (
         <React.StrictMode>
             <BrowserRouter>
