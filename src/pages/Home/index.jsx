@@ -99,7 +99,7 @@ function Home(props) {
                     <div className="col-md-6">
                         <h2>{text.footer.follow}</h2>
                         <ul className="list-inline">
-                            <li className="list-inline-item">
+                            {/* <li className="list-inline-item">
                                 <a>
                                     <i className="fab fa-facebook"></i>
                                 </a>
@@ -113,7 +113,7 @@ function Home(props) {
                                 <a>
                                     <i className="fab fa-instagram"></i>
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
