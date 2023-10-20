@@ -491,7 +491,7 @@ export const text = {
                 video2: 'Para ver el video en youtube visite este enlace:',
             },
             overview: {
-                title: 'Overview',
+                title: 'Resumen',
                 p: [
                     {
                         text: 'Este curso de desarrollo web está diseñado para proporcionar una introducción completa a HTML, CSS y JavaScript: los bloques de construcción fundamentales de la web moderna. A lo largo del curso, los participantes adquirirán un sólido entendimiento de cada lenguaje y cómo trabajan juntos para crear paginas web estáticas y dinámicas.',
