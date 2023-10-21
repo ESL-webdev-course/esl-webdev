@@ -1,16 +1,16 @@
 body {
-    background-color: BLACK;
+    background-color: #f8f8ff;
     font-weight: 100;
     font-family: Nunito;
     overflow-x: hidden;
-    color: white;
+    color: darkslategrey;
 }
 #mainNav {
     display: flex;
 }
 
 #back {
-    color: #f4fff8;
+    color: darkslategrey;
 }
 hr {
     border-top: 1px solid #0078d7;
@@ -23,7 +23,7 @@ a {
     color: #88b7dd;
 }
 .container-fluid p {
-    color: #f4fff8;
+    color: darkslategrey;
     font-weight: 100;
     text-align: left;
     font-size: 1rem;
@@ -32,6 +32,9 @@ a {
 /* Slideshow container */
 
 .navbar-dark .navbar-nav .nav-link {
+    color: #f4fff8;
+}
+#contact p {
     color: #f4fff8;
 }
 .tstart {
@@ -57,14 +60,14 @@ a {
 #mainNav {
     font-weight: 100;
     font-size: 1.25rem;
-    color: #f4fff8;
+    color: darkslategrey;
     padding-top: 0;
     padding-bottom: 0;
 }
 #mainNav .nav-links {
     font-weight: 100;
     font-size: 1.25rem;
-    color: #f4fff8;
+    color: darkslategrey;
     padding-top: 0;
     padding-bottom: 0;
 }

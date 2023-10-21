@@ -4,9 +4,9 @@ function Resources(props) {
     return (
         <div className="container-fluid" id="home">
             <div className="row align-items-center">
-                <div className="col-12 mt-5 p-5 col-sm-7 text-white text-left">
+                <div className="col-12 mt-5 p-5 col-sm-7  text-left">
                     <div className="container">
-                        <h2 className="header text-white text-left">{text.title}</h2>
+                        <h2 className="header  text-left">{text.title}</h2>
 
                         <hr />
 

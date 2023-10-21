@@ -5,7 +5,7 @@ function Home(props) {
         <div className="App">
             <div className="container-fluid" id="home">
                 <div className="row align-items-center">
-                    <div className="mt-5 col-sm-6 text-white d-none d-md-block">
+                    <div className="mt-5 col-sm-6 d-none d-md-block">
                         <h1 className="header">
                             <span className="tstart">E</span>SL
                             <span className="tstart"> W</span>ebdev
@@ -67,7 +67,7 @@ function Home(props) {
             <div className="container-fluid" id="about">
                 <div className="row content">
                     <div className="col-md-4 col-12 order-2 order-md-1 justify-content-center align-items-center">
-                        <img src="images/me.jpeg" className="img-fluid" alt="" />
+                        <img src="images/me.png" className="img-fluid" alt="" />
                     </div>
                     <div className="col-md-8 col-12 text-center justify-content-center align-items-center">
                         <div className="row justify-content-center mb-5 mb-md-0">
@@ -99,21 +99,16 @@ function Home(props) {
                     <div className="col-md-6">
                         <h2>{text.footer.follow}</h2>
                         <ul className="list-inline">
-                            {/* <li className="list-inline-item">
-                                <a>
-                                    <i className="fab fa-facebook"></i>
-                                </a>
-                            </li>
                             <li className="list-inline-item">
-                                <a>
+                                <a target="_blank" rel="noreferrer" href="https://twitter.com/mateoslnegrete">
                                     <i className="fab fa-twitter"></i>
                                 </a>
                             </li>
                             <li className="list-inline-item">
-                                <a>
+                                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mateo.sanchez.14/">
                                     <i className="fab fa-instagram"></i>
                                 </a>
-                            </li> */}
+                            </li>
                         </ul>
                     </div>
                 </div>

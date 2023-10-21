@@ -7,7 +7,7 @@ export default function Syllabus(props) {
     return (
         <div className="container-fluid" id="home">
             <div className="row align-items-center">
-                <div className="col-12 mt-5 p-5 col-md-7 text-white text-left">
+                <div className="col-12 mt-5 p-5 col-md-7  text-left">
                     <div className="container">
                         <h1>{text.title}</h1>
                         <div id="overview">
@@ -26,7 +26,7 @@ export default function Syllabus(props) {
                                 {text.classes.map((section) => {
                                     return (
                                         <li>
-                                            <HashLink to={'/syllabus#class' + section.key}>
+                                            <HashLink to={'/syllabus#' + section.url}>
                                                 {section.title + ' -- ' + section.description}
                                             </HashLink>
                                         </li>
@@ -38,7 +38,7 @@ export default function Syllabus(props) {
                             {text.classes.map((section) => {
                                 return (
                                     <div className="class" id={section.url}>
-                                        <h3>{section.title + ' -- ' + section.description}</h3>
+                                        <h5>{section.title + ' -- ' + section.description}</h5>
                                         <p>{section.estimate}</p>
                                         <a href={'/' + section.url}>{text.full}</a>
                                         <p>{section.extended}</p>
