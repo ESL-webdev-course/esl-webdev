@@ -36,14 +36,12 @@ function NotSelfGuided(props) {
             <p>{props.other.instruction.video}</p>
 
             <iframe
+                width="560"
+                height="315"
                 src={props.video}
-                width="576"
-                height="420"
-                title={props.description}
-                scrolling="no"
+                title="YouTube video player"
                 frameborder="0"
-                webkitAllowfullScreen
-                mozAllowFullscreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
             ></iframe>
             <a target="_blank" rel="noreferrer" style={{ display: 'block' }} href={props.link}>
@@ -63,7 +61,7 @@ export default function Class(props) {
     if (window?.location.pathname === '/' + section.url) require('./pindex.css');
     return (
         <div className="container mt-5 p-5" id="home">
-            <HashLink class="btn btn-outline-light" to={'/syllabus#' + section.url}>
+            <HashLink class="btn btn-outline-dark" to={'/syllabus#' + section.url}>
                 <IoIosArrowBack />
             </HashLink>
             <div className="mt-5">

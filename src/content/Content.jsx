@@ -230,13 +230,13 @@ export const text = {
                     title: 'Lesson #1',
                     url: 'lesson1',
                     description: 'Introduction to course',
-                    estimate: '30mins',
+                    estimate: '10mins',
                     selfGuided: false,
                     extended:
                         'This first lesson will introduce the central method of the course and will go over the way to consume it in order for it to yeild maximum benefit. Additionally there will be a brief review of the student resources.',
 
                     text: 'In Prog.',
-                    video: 'PLACEHOLDER',
+                    video: 'https://www.youtube.com/embed/qkf2mcauyvs?si=_qWd64b8qUNOznnX',
                     key: 1,
                 },
                 {
@@ -516,7 +516,7 @@ export const text = {
                     title: 'Leccion #1',
                     url: 'leccion1',
                     description: 'Introduccion al curso',
-                    estimate: '30mins',
+                    estimate: '10mins',
                     selfGuided: false,
                     slidesLink: 'https://slides.com/mats2/lesson-1-en-introduction-to-course/embed',
                     extended:
