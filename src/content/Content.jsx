@@ -522,7 +522,7 @@ export const text = {
                     extended:
                         'Esta primera lección introducirá el método central del curso y explicará la forma de consumirlo para obtener el máximo beneficio. Además, habrá una breve revisión de los recursos disponibles para los estudiantes.',
                     text: 'In Prog.',
-                    video: 'PLACEHOLDER',
+                    video: 'https://www.youtube.com/embed/C2Q1oNDRBNg?si=7XuA60niSYwwDlEG',
                     key: 1,
                 },
                 {
