@@ -22,7 +22,7 @@ export default function Syllabus(props) {
                         </div>
                         <div id="index">
                             <h2>{text.indext}</h2>
-                            <ol>
+                            <ul>
                                 {text.classes.map((section) => {
                                     return (
                                         <li>
@@ -32,7 +32,7 @@ export default function Syllabus(props) {
                                         </li>
                                     );
                                 })}
-                            </ol>
+                            </ul>
                         </div>
                         <div id="classes">
                             {text.classes.map((section) => {

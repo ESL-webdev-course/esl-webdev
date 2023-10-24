@@ -268,7 +268,7 @@ export const text = {
                     extended:
                         'This third lesson will go over the essentials of HTML. History, basic document structure, tags and important resources',
                     text: 'In Prog.',
-                    video: 'PLACEHOLDER',
+                    video: 'https://www.youtube.com/embed/IKBnfKWc8Ww?si=6X3UdJOXqjYpSwzY',
                     key: 3,
                 },
             ],
