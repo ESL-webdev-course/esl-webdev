@@ -552,7 +552,7 @@ export const text = {
                     extended:
                         'Esta tercera lección abordará los conceptos esenciales de HTML. Historia, estructura básica de documentos, etiquetas y recursos importantes.',
                     text: 'In Prog.',
-                    video: 'PLACEHOLDER',
+                    video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
                     key: 2,
                 },
             ],
