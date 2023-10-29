@@ -29,6 +29,17 @@ export default function Syllabus(props) {
                                             <HashLink to={'/syllabus#' + section.url}>
                                                 {section.title + ' -- ' + section.description}
                                             </HashLink>
+                                            <ul>
+                                                {section.exercises.map((exercise) => {
+                                                    return (
+                                                        <li>
+                                                            <HashLink to={'/syllabus#' + exercise.url}>
+                                                                {exercise.title + ' -- ' + exercise.description}
+                                                            </HashLink>
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ul>
                                         </li>
                                     );
                                 })}
@@ -37,11 +48,23 @@ export default function Syllabus(props) {
                         <div id="classes">
                             {text.classes.map((section) => {
                                 return (
-                                    <div className="class" id={section.url}>
-                                        <h5>{section.title + ' -- ' + section.description}</h5>
-                                        <p>{section.estimate}</p>
-                                        <a href={'/' + section.url}>{text.full}</a>
-                                        <p>{section.extended}</p>
+                                    <div>
+                                        <div className="class" id={section.url}>
+                                            <h5>{section.title + ' -- ' + section.description}</h5>
+                                            <p>{section.estimate}</p>
+                                            <a href={'/' + section.url}>{text.full}</a>
+                                            <p>{section.extended}</p>
+                                        </div>
+                                        {section.exercises.map((exercise) => {
+                                            return (
+                                                <div className="class" id={exercise.url}>
+                                                    <h5>{exercise.title + ' -- ' + exercise.description}</h5>
+                                                    <p>{exercise.estimate}</p>
+                                                    <a href={'/' + exercise.url}>{text.full}</a>
+                                                    <p>{exercise.extended}</p>
+                                                </div>
+                                            );
+                                        })}
                                     </div>
                                 );
                             })}

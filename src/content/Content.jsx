@@ -237,6 +237,7 @@ export const text = {
 
                     text: 'In Prog.',
                     video: 'https://www.youtube.com/embed/qkf2mcauyvs?si=_qWd64b8qUNOznnX',
+                    exercises: [],
                     key: 1,
                 },
                 {
@@ -254,6 +255,7 @@ export const text = {
                         'This second lesson will go over the reccomended set up for the course. Basically the applications and programms I belive will serve students of this course best. And how to set them up for the course.',
                     text: 'In Prog.',
                     video: 'PLACEHOLDER',
+                    exercises: [],
                     key: 2,
                 },
                 {
@@ -270,6 +272,53 @@ export const text = {
                     text: 'In Prog.',
                     video: 'https://www.youtube.com/embed/IKBnfKWc8Ww?si=6X3UdJOXqjYpSwzY',
                     key: 3,
+                    exercises: [
+                        {
+                            key: 2.1,
+                            title: 'Lesson #2.1',
+                            url: 'lesson2-1',
+                            description: 'The HTML Skeleton',
+                            instructions:
+                                'View the video here and follow the instructions regarding activities and exercises.',
+                            estimate: '30-45 mins',
+                            selfGuided: false,
+                            slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                            extended:
+                                'This lesson will talk about the HTML skeleton, some tips for quickly programming it, and includes some short exercises to practice it.',
+                            text: 'In Prog.',
+                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                        },
+                        {
+                            key: 2.2,
+                            title: 'Lesson #2.2',
+                            url: 'lesson2-2',
+                            description: 'Essential Tags',
+                            instructions:
+                                'View the video here and follow the instructions regarding activities and exercises.',
+                            estimate: '30-45 mins',
+                            selfGuided: false,
+                            slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                            extended:
+                                'This lesson will be on the basic tags and will contain some exercises on how to use them.',
+                            text: 'In Prog.',
+                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                        },
+                        {
+                            key: 2.3,
+                            title: 'Lesson #2.3',
+                            url: 'lesson2-3',
+                            description: 'Essential Tags Cont.',
+                            instructions:
+                                'View the video here and follow the instructions regarding activities and exercises.',
+                            estimate: '30-45 mins',
+                            selfGuided: false,
+                            slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                            extended:
+                                'This lesson is a continuation of the previous. It will be on the basic tags and will contain some exercises on how to use them.',
+                            text: 'In Prog.',
+                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                        },
+                    ],
                 },
             ],
         },
@@ -523,6 +572,7 @@ export const text = {
                         'Esta primera lección introducirá el método central del curso y explicará la forma de consumirlo para obtener el máximo beneficio. Además, habrá una breve revisión de los recursos disponibles para los estudiantes.',
                     text: 'In Prog.',
                     video: 'https://www.youtube.com/embed/C2Q1oNDRBNg?si=7XuA60niSYwwDlEG',
+                    exercises: [],
                     key: 1,
                 },
                 {
@@ -538,6 +588,7 @@ export const text = {
                         'Esta segunda lección abordará la configuración recomendada para el curso. Básicamente, las aplicaciones y programas que creo que serán más útiles para los estudiantes de este curso y cómo configurarlos para el curso.',
                     text: 'In Prog.',
                     video: 'PLACEHOLDER',
+                    exercises: [],
                     key: 2,
                 },
                 {
@@ -554,6 +605,53 @@ export const text = {
                     text: 'In Prog.',
                     video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
                     key: 2,
+                    exercises: [
+                        {
+                            key: 2.1,
+                            title: 'Leccion #2.1',
+                            url: 'leccion2-1',
+                            description: 'El Esqueleto HTML',
+                            instructions:
+                                'Vea el video aquí y siga las instrucciones relacionadas con las actividades y ejercicios.',
+                            estimate: '30-45 mins',
+                            selfGuided: false,
+                            slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                            extended:
+                                'Esta leccion hablara acerca del esqueleto HTML, unos tips para programarlo rapidamente, y contiene unos ejercicios breves para practicarlo.',
+                            text: 'In Prog.',
+                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                        },
+                        {
+                            key: 2.2,
+                            title: 'Leccion #2.2',
+                            url: 'leccion2-2',
+                            description: 'Tags Fundamentales',
+                            instructions:
+                                'Vea el video aquí y siga las instrucciones relacionadas con las actividades y ejercicios.',
+                            estimate: '30-45 mins',
+                            selfGuided: false,
+                            slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                            extended:
+                                'Esta leccion hablara acerca del los tags basicos, unos tips para programarlo rapidamente, y contiene unos ejercicios breves para aprender a usarlos.',
+                            text: 'In Prog.',
+                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                        },
+                        {
+                            key: 2.3,
+                            title: 'Leccion #2.3',
+                            url: 'leccion2-3',
+                            description: 'Tags Fundamentals Cont.',
+                            instructions:
+                                'Vea el video aquí y siga las instrucciones relacionadas con las actividades y ejercicios.',
+                            estimate: '30-45 mins',
+                            selfGuided: false,
+                            slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                            extended:
+                                'Esta leccion continuara hablando acerca del los tags basicos, unos tips para programarlo rapidamente, y contiene unos ejercicios breves para aprender a usarlos.',
+                            text: 'In Prog.',
+                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                        },
+                    ],
                 },
             ],
         },

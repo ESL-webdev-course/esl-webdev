@@ -31,6 +31,27 @@ function App() {
     };
 
     const [language, setLanguage] = useState({ english: initLanguage(), content: getContent(initLanguage()) });
+
+    let exercisesES = [];
+    {
+        // eslint-disable-next-line
+        text.es.syllabus.classes.map((b) => {
+            b.exercises.map((r) => {
+                exercisesES.push(r);
+            });
+        });
+    }
+
+    let exercisesEN = [];
+    {
+        // eslint-disable-next-line
+        text.en.syllabus.classes.map((b) => {
+            b.exercises.map((r) => {
+                exercisesEN.push(r);
+            });
+        });
+    }
+
     return (
         <React.StrictMode>
             <BrowserRouter>
@@ -40,8 +61,25 @@ function App() {
                     {text.en.syllabus.classes.map((r) => {
                         return <Route path={'/' + r.url} element={<Class class={r} text={text.en.syllabus} />} />;
                     })}
+
                     {text.es.syllabus.classes.map((r) => {
                         return <Route path={'/' + r.url} element={<Class class={r} text={text.es.syllabus} />} />;
+                    })}
+                    {exercisesES.map((exercise) => {
+                        return (
+                            <Route
+                                path={'/' + exercise.url}
+                                element={<Class class={exercise} text={text.es.syllabus} />}
+                            />
+                        );
+                    })}
+                    {exercisesEN.map((exercise) => {
+                        return (
+                            <Route
+                                path={'/' + exercise.url}
+                                element={<Class class={exercise} text={text.es.syllabus} />}
+                            />
+                        );
                     })}
                     <Route path="/syllabus" element={<Syllabus language={language} />} />
                     <Route path="/resources" element={<Resources language={language} />} />
