@@ -282,11 +282,11 @@ export const text = {
                                 'View the video here and follow the instructions regarding activities and exercises.',
                             estimate: '30-45 mins',
                             selfGuided: false,
-                            slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                            slidesLink: 'https://slides.com/mats2/2-1-lesson-en-learning-the-html-skeleton/embed',
                             extended:
                                 'This lesson will talk about the HTML skeleton, some tips for quickly programming it, and includes some short exercises to practice it.',
                             text: 'In Prog.',
-                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                            video: 'https://www.youtube.com/embed/9Tv_u6QgBeQ?si=TG2nFkCO0Vp05Mlr',
                         },
                         {
                             key: 2.2,
@@ -615,11 +615,11 @@ export const text = {
                                 'Vea el video aquí y siga las instrucciones relacionadas con las actividades y ejercicios.',
                             estimate: '30-45 mins',
                             selfGuided: false,
-                            slidesLink: 'https://slides.com/mats2/lesson-2-en-introduction-to-html/embed',
+                            slidesLink: 'https://slides.com/mats2/2-1-lesson-en-learning-the-html-skeleton/embed',
                             extended:
                                 'Esta leccion hablara acerca del esqueleto HTML, unos tips para programarlo rapidamente, y contiene unos ejercicios breves para practicarlo.',
                             text: 'In Prog.',
-                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                            video: 'https://www.youtube.com/embed/ZGTkML8VbjI?si=KIEnSFkJimi9bkS-',
                         },
                         {
                             key: 2.2,
