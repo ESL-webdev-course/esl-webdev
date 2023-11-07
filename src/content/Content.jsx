@@ -301,7 +301,7 @@ export const text = {
                             extended:
                                 'This lesson will be on the basic tags and will contain some exercises on how to use them.',
                             text: 'In Prog.',
-                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                            video: 'Placeholder',
                         },
                         {
                             key: 2.3,
@@ -316,7 +316,7 @@ export const text = {
                             extended:
                                 'This lesson is a continuation of the previous. It will be on the basic tags and will contain some exercises on how to use them.',
                             text: 'In Prog.',
-                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                            video: 'Placeholder',
                         },
                     ],
                 },
@@ -634,7 +634,7 @@ export const text = {
                             extended:
                                 'Esta leccion hablara acerca del los tags basicos, unos tips para programarlo rapidamente, y contiene unos ejercicios breves para aprender a usarlos.',
                             text: 'In Prog.',
-                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                            video: 'Placeholder',
                         },
                         {
                             key: 2.3,
@@ -649,7 +649,7 @@ export const text = {
                             extended:
                                 'Esta leccion continuara hablando acerca del los tags basicos, unos tips para programarlo rapidamente, y contiene unos ejercicios breves para aprender a usarlos.',
                             text: 'In Prog.',
-                            video: 'https://www.youtube.com/embed/8YLyGjsyv3g?si=C1Djug9m5l9OA4Jd',
+                            video: 'Placeholder',
                         },
                     ],
                 },
